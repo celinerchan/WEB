@@ -1,0 +1,56 @@
+body {
+    background-color: paleturquoise;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body:hover{
+    background-color: pink;
+    /*this makes it so when you hover over the background the color changes to pink*/
+}
+
+a:visited{
+    color:red
+}
+
+h1,h2,h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/*using a . is for class example: .container*/
+
+body:first-child{
+    color:rgb(0, 255, 4);
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    background-color: rosybrown;
+}
+
+a.special{
+    color: cadetblue;
+}
+/*only applies to links with special as a class*/
+
+.special{
+    font-size: 30;
+} /* applied to any tag with special as a class*/
+
+
+button:focus {
+    outline: 3px dashed red;
+    background-color: #fdccff;
+  }
+/*This is what I'm adding to my webpage. when the botton is clicked on a red dashed outline will appear on it and you will be able to hit the tab button to reverse it*/
+/*
