@@ -1,0 +1,41 @@
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #bababa); 
+    font-family: 'Montserrat', sans-serif; /* Optional: Stylish font */
+    margin: 0; /* Removes default margin */
+    padding: 0;
+    min-height: 100vh; /* Ensures the full height of the screen is covered */
+    display: flex;
+    flex-direction: column;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(213, 213, 213);
+    color: rgb(19, 19, 19);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ff01b7;
+    color: rgb(255, 255, 255)
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
