@@ -1,0 +1,97 @@
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #8a9cff); /* Light blue gradient */
+    font-family: 'Montserrat', sans-serif; /* Optional: Stylish font */
+    margin: 0; /* Removes default margin */
+    padding: 0;
+    min-height: 100vh; /* Ensures the full height of the screen is covered */
+    display: flex;
+    flex-direction: column;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 3s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(213, 213, 213);
+    color: rgb(19, 19, 19);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ff01b7;
+    color: rgb(255, 255, 255)
+  }
+
+  .custom-font-section {
+    font-family: 'Georgia', serif; /* Or use a web font */
+    font-size: 18px;
+ }
+
+ .frame-container{
+    width: 70%;
+    height: 450px;
+    border: 2px solid rgb(131, 157, 237); /* Add a solid border */
+    background-color: #cedff8;
+    margin: 20px auto; /* Centers the frame horizontally */
+    display: block;
+    
+ }
+ .musician-card {
+    background-color: #d0e1f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.musician-card:hover {
+    transform: scale(1.05);
+}
+
+.musician-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.musician-card img:hover {
+    transform: scale(1.1);
+}
+
+ footer {
+    text-align: bottom;
+    padding: 3px;
+    background-color: rgb(122, 163, 233);
+    color: white;
+  }
+ 
