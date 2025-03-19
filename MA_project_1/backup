@@ -1,0 +1,17 @@
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Billie Eilish</h3>
+          <img src="billie1.jpeg" alt="Billie Eilish" width="200" height="250">
+        </div>
+        <div class="col-sm-4">
+          <h3>Frank Ocean</h3>
+          <img src="frankocean1.jpeg" alt="Frank Ocean" width="200" height="250">
+        </div>
+        <div class="col-sm-4">
+          <h3>Tyler The Creator</h3>
+          <img src="tyler1.jpg" alt="Tyler The Creator" width="200" height="250">
+        </div>
+      </div>
+    </div>
